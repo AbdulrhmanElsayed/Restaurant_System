@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wood"
+    android:gravity="center"
+    tools:context=".TableNumber">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TABLE NUMBER"
+        android:textColor="#fff"
+        android:textSize="55sp"
+        android:id="@+id/txt"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:backgroundTint="#fff"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:background="#fff"
+        android:id="@+id/tbl_num"
+        android:layout_below="@+id/txt"/>
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:text="SAve"
+        android:textSize="25dp"
+        android:layout_below="@+id/tbl_num"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="80dp"
+        android:id="@+id/btnSave"
+        android:onClick="next"
+        />
+
+
+
+
+
+</RelativeLayout>

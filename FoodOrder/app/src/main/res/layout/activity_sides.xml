@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wood"
+    android:layout_height="match_parent"
+    tools:context=".sides">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/tokyo" />
+
+    <TextView
+        android:layout_width="700dp"
+        android:layout_height="110dp"
+        android:text="Sides and Add-ons"
+        android:textColor="#BFFFFFFF"
+        android:textSize="80sp"
+        android:gravity="center"
+        android:background="#D0501414"
+        android:textStyle="bold"
+        android:layout_marginLeft="250dp"
+        android:id="@+id/sides"
+        />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrol"
+        >
+
+        <LinearLayout
+            android:layout_width="710dp"
+            android:layout_height="10dp"
+            android:orientation="vertical"
+            android:layout_marginTop="110dp">
+
+
+            <ImageButton
+                android:id="@+id/add1"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/add1"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                >
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="4pcs California Maki"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="200dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱70.00"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="200dp"
+                />
+
+            <ImageButton
+                android:id="@+id/add2"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/add1"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="-150dp"
+                android:layout_marginLeft="370dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="8pcs California Maki"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp"
+                android:layout_marginTop="-130dp"
+                android:layout_marginLeft="540dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱110.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="540dp"
+                />
+
+            <ImageButton
+                android:id="@+id/add3"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/add2"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Dragon Maki"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="39sp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="200dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱130.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="200dp"
+                />
+
+            <ImageButton
+                android:id="@+id/add4"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/add3"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="-145dp"
+                android:layout_marginLeft="370dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Corn and Kani Salad"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="32sp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="540dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱75.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="540dp"
+                />
+
+            <ImageButton
+                android:id="@+id/add5"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/add4"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Kani Mango Salad"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="200dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱75.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="200dp"
+                />
+
+            <ImageButton
+                android:id="@+id/add6"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/add5"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="-145dp"
+                android:layout_marginLeft="370dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Gyoza"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="45sp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="540dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱50.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="540dp"
+                />
+
+            <ImageButton
+                android:id="@+id/add7"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/add6"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Fried Gyoza"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="28dp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="200dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱60.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="200dp"
+                />
+
+            <ImageButton
+                android:id="@+id/add8"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/add7"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="-145dp"
+                android:layout_marginLeft="370dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Yakisoba"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="540dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱55.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="540dp"
+                />
+            <ImageButton
+                android:id="@+id/add9"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/add8"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Regular Nori Wasabi Fries"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="28dp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="200dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱45.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="200dp"
+                />
+
+            <ImageButton
+                android:id="@+id/add10"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/add8"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="-145dp"
+                android:layout_marginLeft="370dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Large Nori Wasabi Fries"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="540dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱65.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="540dp"
+                />
+
+            <ImageButton
+                android:id="@+id/add11"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/add9"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Miso Soup"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="28dp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="200dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱45.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="200dp"
+                />
+
+            <ImageButton
+                android:id="@+id/add12"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/add10"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="-145dp"
+                android:layout_marginLeft="370dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Potato Balls"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="540dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱50.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="540dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/scrol"
+        android:layout_below="@+id/sides"
+        android:id="@+id/rec6"
+        />
+
+</RelativeLayout>

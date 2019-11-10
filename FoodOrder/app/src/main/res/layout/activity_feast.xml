@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wood"
+    android:layout_height="match_parent"
+    tools:context=".feast">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/tokyo" />
+
+    <TextView
+        android:layout_width="700dp"
+        android:layout_height="110dp"
+        android:text="Imperial Feast"
+        android:textColor="#BFFFFFFF"
+        android:textSize="80sp"
+        android:gravity="center"
+        android:background="#D0501414"
+        android:textStyle="bold"
+        android:layout_marginLeft="250dp"
+        android:id="@+id/imperial"
+        />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrol"
+        >
+
+        <LinearLayout
+            android:layout_width="710dp"
+            android:layout_height="10dp"
+            android:orientation="vertical"
+            android:layout_marginTop="110dp">
+
+
+            <ImageButton
+                android:id="@+id/if1"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:src="@drawable/if1"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                >
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:background="#8F6D0000"
+                android:text="Imperial Feast"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="56sp"
+                android:layout_marginTop="-200dp"
+                android:layout_marginLeft="350dp" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱770.00"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="350dp"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/scrol"
+        android:layout_below="@+id/imperial"
+        android:id="@+id/rec4"
+        />
+
+</RelativeLayout>

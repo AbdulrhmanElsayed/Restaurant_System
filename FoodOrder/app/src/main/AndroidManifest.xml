@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.foodorder">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity_bill"></activity>
+        <activity android:name=".displaySelectedMeal" />
+        <activity android:name=".TableNumber">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".assist" />
+        <activity android:name=".desserts" />
+        <activity android:name=".sides" />
+        <activity android:name=".snacks" />
+        <activity android:name=".ramen" />
+        <activity android:name=".feast" />
+        <activity android:name=".sumo" />
+        <activity android:name=".bento" />
+        <activity android:name=".foodorder" />
+        <activity android:name=".donburi" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

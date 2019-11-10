@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Food Order</string>
+    <string name="sides_add_ons"><![CDATA[Sides & Add Ons]]></string>
+    <string name="desserts_drinks"><![CDATA[Desserts & Drinks]]></string>
+</resources>

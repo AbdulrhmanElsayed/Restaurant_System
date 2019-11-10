@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wood"
+    android:layout_height="match_parent"
+    tools:context=".bento">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/tokyo" />
+
+    <TextView
+        android:layout_width="700dp"
+        android:layout_height="110dp"
+        android:text="Bento Meals"
+        android:textColor="#BFFFFFFF"
+        android:textSize="80sp"
+        android:gravity="center"
+        android:background="#D0501414"
+        android:textStyle="bold"
+        android:layout_marginLeft="250dp"
+        android:id="@+id/bento"
+        />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/srol">
+
+        <LinearLayout
+            android:layout_width="710dp"
+            android:layout_height="10dp"
+            android:orientation="vertical"
+            android:layout_marginTop="110dp">
+
+
+            <ImageButton
+                android:id="@+id/bm1"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/bm1"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                >
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Chickenomiyaki"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="200dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱215.00"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="200dp"
+                />
+
+            <ImageButton
+                android:id="@+id/bm2"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/bm2"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="-150dp"
+                android:layout_marginLeft="370dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Mt. Katsu"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                android:layout_marginTop="-130dp"
+                android:layout_marginLeft="540dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱200.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="540dp"
+                />
+
+            <ImageButton
+                android:id="@+id/bm3"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/bm3"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Beef Yakiniku"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="200dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱180.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="200dp"
+                />
+
+            <ImageButton
+                android:id="@+id/bm4"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/bm4"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="-145dp"
+                android:layout_marginLeft="370dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Beef Misono"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="540dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱180.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="540dp"
+                />
+
+            <ImageButton
+                android:id="@+id/bm5"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/bm5"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Best Chicken Teriyaki"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="200dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱180.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="200dp"
+                />
+
+            <ImageButton
+                android:id="@+id/bm6"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/bm6"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="-145dp"
+                android:layout_marginLeft="370dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Chicken Karaage"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="540dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱175.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="540dp"
+                />
+            <ImageButton
+                android:id="@+id/bm7"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/bm7"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="3pc Prawn Tempura"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="32dp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="200dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱180.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="200dp"
+                />
+
+            <ImageButton
+                android:id="@+id/bm8"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/bm8"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="-145dp"
+                android:layout_marginLeft="370dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Big Chicken Katsu Original"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="540dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱190.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="540dp"
+                />
+            <ImageButton
+                android:id="@+id/bm9"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/bm9"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Big Chicken Katsu Teriyaki"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="27dp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="200dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱190.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="200dp"
+                />
+
+            <ImageButton
+                android:id="@+id/bm10"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/bm10"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="-145dp"
+                android:layout_marginLeft="370dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Honey Chicken Teriyaki"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="540dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱135.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="540dp"
+                />
+
+            <ImageButton
+                android:id="@+id/bm11"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/bm11"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Pork Tonkatsu"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="32dp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="200dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱175.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="200dp"
+                />
+
+            <ImageButton
+                android:id="@+id/bm12"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/bm12"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="-145dp"
+                android:layout_marginLeft="370dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Prawn and Veggie Tempura"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="540dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱170.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="540dp"
+                />
+
+            <ImageButton
+                android:id="@+id/bm13"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/bm13"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Prawn and Kani Tempura"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="28dp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="200dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱190.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="200dp"
+                />
+
+            <ImageButton
+                android:id="@+id/bm14"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/bm14"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="-145dp"
+                android:layout_marginLeft="370dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Unagi-Style Bangus"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="540dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱180.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="540dp"
+                />
+
+            <ImageButton
+                android:id="@+id/bm15"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/bm15"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Wagyu Cubes Bento"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="29dp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="200dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱195.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="200dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/srol"
+        android:layout_below="@+id/bento"
+        android:id="@+id/rec1"
+        />
+
+</RelativeLayout>

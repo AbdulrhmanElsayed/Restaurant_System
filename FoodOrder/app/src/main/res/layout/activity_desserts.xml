@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wood"
+    android:layout_height="match_parent"
+    tools:context=".desserts">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/tokyo" />
+
+    <TextView
+        android:layout_width="700dp"
+        android:layout_height="110dp"
+        android:text="Desserts and Drinks"
+        android:textColor="#BFFFFFFF"
+        android:textSize="75sp"
+        android:gravity="center"
+        android:background="#D0501414"
+        android:textStyle="bold"
+        android:layout_marginLeft="250dp"
+        android:id="@+id/dessert"
+        />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrol">
+
+        <LinearLayout
+            android:layout_width="710dp"
+            android:layout_height="10dp"
+            android:orientation="vertical"
+            android:layout_marginTop="110dp">
+
+
+            <ImageButton
+                android:id="@+id/d1"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/d1"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                >
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Almond Jelly"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="200dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱45.00"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="200dp"
+                />
+
+            <ImageButton
+                android:id="@+id/d2"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/d2"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="-150dp"
+                android:layout_marginLeft="370dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Coffee Jelly"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                android:layout_marginTop="-130dp"
+                android:layout_marginLeft="540dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱45.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="540dp"
+                />
+
+            <ImageButton
+                android:id="@+id/d3"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/d3"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Mango Pannacotta"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="200dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱45.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="200dp"
+                />
+
+            <ImageButton
+                android:id="@+id/d4"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/d4"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="-145dp"
+                android:layout_marginLeft="370dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Fruit Creme"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="34sp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="540dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱65.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="540dp"
+                />
+
+            <ImageButton
+                android:id="@+id/d5"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/d5"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Strawberries and Cream"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="200dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱65.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="200dp"
+                />
+
+            <ImageButton
+                android:id="@+id/d6"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/d6"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="-145dp"
+                android:layout_marginLeft="370dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Halo-Halo Snow Ice"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="32sp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="540dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱180.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="540dp"
+                />
+            <ImageButton
+                android:id="@+id/d7"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/d7"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Triple Chocolate Snow Ice"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="200dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱100.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="200dp"
+                />
+
+            <ImageButton
+                android:id="@+id/d8"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/d8"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="-145dp"
+                android:layout_marginLeft="370dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Mango Butterscotch Snow Ice"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="540dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱100.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="540dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/scrol"
+        android:layout_below="@+id/dessert"
+        android:id="@+id/rec2"
+        />
+
+</RelativeLayout>

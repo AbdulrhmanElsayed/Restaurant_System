@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="960dp"
+    android:orientation="vertical"
+    android:background="@drawable/wood"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="Bell App "
+        android:textColor="#BFFFFFFF"
+        android:textSize="80sp"
+        android:gravity="center"
+        android:background="#D0501414"
+        android:textStyle="bold"
+        android:layout_marginLeft="250dp"
+        android:id="@+id/food"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rec1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/food"
+        android:layout_above="@+id/btnbill"
+        />
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Confirm Paying"
+        android:textSize="35sp"
+        android:id="@+id/btnbill"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="bill"
+        />
+
+</RelativeLayout>

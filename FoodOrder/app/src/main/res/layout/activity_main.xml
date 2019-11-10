@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="960dp"
+    android:orientation="vertical"
+    android:background="@drawable/wood"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+
+        <ImageView
+            android:layout_width="600dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="150dp"
+            android:background="@drawable/tokyo" />
+
+        <Button
+            android:id="@+id/orderButton"
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="150dp"
+            android:background="#ff0000"
+            android:text="Order Here"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/assistButton"
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:background="#ff0000"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="150dp"
+            android:text="Ask for an assistance"
+            android:layout_toRightOf="@+id/orderButton"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+
+             />
+
+        <Button
+            android:id="@+id/additionalButton"
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="310dp"
+            android:background="#ff0000"
+            android:text="Add additional order"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+             />
+
+        <Button
+            android:id="@+id/billButton"
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:background="#ff0000"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="310dp"
+            android:text="Bill out"
+            android:layout_toRightOf="@+id/orderButton"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+           />
+
+
+</RelativeLayout>

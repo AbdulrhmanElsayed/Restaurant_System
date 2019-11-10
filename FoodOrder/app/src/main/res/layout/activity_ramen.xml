@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wood"
+    android:layout_height="match_parent"
+    tools:context=".ramen">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/tokyo" />
+
+    <TextView
+        android:layout_width="700dp"
+        android:layout_height="110dp"
+        android:text="Ramen"
+        android:textColor="#BFFFFFFF"
+        android:textSize="80sp"
+        android:gravity="center"
+        android:background="#D0501414"
+        android:textStyle="bold"
+        android:layout_marginLeft="250dp"
+        android:id="@+id/ramen"
+        />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrol"
+        >
+
+        <LinearLayout
+            android:layout_width="710dp"
+            android:layout_height="10dp"
+            android:orientation="vertical"
+            android:layout_marginTop="110dp">
+
+
+            <ImageButton
+                android:id="@+id/r1"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/r1"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                >
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Seafood Ramen"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="37sp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="200dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱210.00"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="200dp"
+                />
+
+            <ImageButton
+                android:id="@+id/r2"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/r2"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="-150dp"
+                android:layout_marginLeft="370dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Sriracha Beef Ramen"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="29sp"
+                android:layout_marginTop="-130dp"
+                android:layout_marginLeft="540dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱210.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="540dp"
+                />
+
+            <ImageButton
+                android:id="@+id/r3"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/r3"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Braised Pork Ramen"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="29dp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="200dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱180.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="200dp"
+                />
+
+            <ImageButton
+                android:id="@+id/r4"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/r4"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="-145dp"
+                android:layout_marginLeft="370dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="#8F6D0000"
+                android:text="Spicy Chicken Ramen"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="27sp"
+                android:layout_marginTop="-135dp"
+                android:layout_marginLeft="540dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#8F6D0000"
+                android:gravity="center"
+                android:text="₱180.00"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="540dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/scrol"
+        android:layout_below="@+id/ramen"
+        android:id="@+id/rec5"
+        />
+</RelativeLayout>
